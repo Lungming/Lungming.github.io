@@ -1,0 +1,74 @@
+header,footer{
+    clear: both;
+    text-align:center;
+    background:#B1ACB3; 
+}
+nav{
+    float:left;
+    width: 20%;
+    height:2958px;
+    background-color: #D4B8B4;
+}
+main{
+    float:left;
+    width:80%;
+    height:auto;
+    background-color: #AAB8AB;
+}
+section{
+    color: black;
+}
+.heigh{
+    line-height:3;
+}
+ul{
+    text-align:center;
+    width:60%;
+}
+img{
+    float: right;
+}
+p{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 120%;
+}
+
+html { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+
+body {
+    padding: 20px 0;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 34px 0 14px 0;
+}
+
+nav > ul {
+    background-color:#D4B8B4 ;
+    list-style: none;   /* 移除項目符號 */
+    margin: 0;
+    padding: 0 ;
+    
+}
+
+nav a {
+    color: inherit; /* 移除超連結顏色 */
+    display:block; /* 讓 <a> 填滿 <li> */
+    font-size: 17px;
+    padding: 5px ;
+    text-decoration: none;  /* 移除超連結底線 */
+}
+
+/* 滑鼠移到 <a> 時變成深底淺色 */
+nav a:hover {
+    background-color: rgb(115, 115, 115);
+    color: white;
+}
+
+.heigh{
+    line-height:3;
+}
+
+
