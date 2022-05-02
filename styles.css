@@ -3,16 +3,17 @@ header,footer{
     text-align:center;
     background:#B1ACB3; 
 }
+
 nav{
     float:left;
     width: 20%;
-    height:inherit;
+    height:2980px;
     background-color: #D4B8B4;
 }
 main{
     float:left;
     width:80%;
-    height:inherit;
+    height:auto;
     background-color: #AAB8AB;
 }
 section{
@@ -71,5 +72,6 @@ nav a:hover {
 .heigh{
     line-height:3;
 }
+
 
 
