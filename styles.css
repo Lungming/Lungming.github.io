@@ -3,17 +3,14 @@ header,footer{
     text-align:center;
     background:#B1ACB3; 
 }
-
 nav{
     float:left;
     width: 20%;
-    height:2980px;
     background-color: #D4B8B4;
 }
 main{
     float:left;
     width:80%;
-    height:auto;
     background-color: #AAB8AB;
 }
 section{
