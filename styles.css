@@ -6,13 +6,13 @@ header,footer{
 nav{
     float:left;
     width: 20%;
-    height:2958px;
+    height:inherit;
     background-color: #D4B8B4;
 }
 main{
     float:left;
     width:80%;
-    height:auto;
+    height:inherit;
     background-color: #AAB8AB;
 }
 section{
@@ -31,6 +31,7 @@ img{
 p{
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 120%;
+    text-indent: 2em;
 }
 
 html { box-sizing: border-box; }
