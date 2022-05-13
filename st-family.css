@@ -35,3 +35,9 @@ section{
 body{
     background-color:azure;
 }
+section{
+    padding:0em 4em;
+}
+h3{
+    text-indent: 2em;
+}
