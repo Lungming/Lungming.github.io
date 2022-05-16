@@ -41,3 +41,9 @@ section{
 h3{
     text-indent: 2em;
 }
+img{
+    padding:1em 0;
+}
+.special{
+    padding:0 0 4em 0; 
+}
