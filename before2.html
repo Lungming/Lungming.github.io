@@ -11,6 +11,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;700&display=swap" rel="stylesheet">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <i class="fa-solid fa-angles-up"></i>
+        <script src="https://kit.fontawesome.com/6bd1ed9390.js" crossorigin="anonymous"></script>
     </head>
     <body>
       <div class="container-fluid">
@@ -49,6 +52,26 @@
                 <p class="special">在團隊頻道中我發表的第一首詞曲創作歌曲叫《以夢為名的光芒》，內容寫的是在成長的路上我們就像在黑暗中摸索，而身邊的朋友老師家人就像一道道的光照入黑暗中，但哪一道光芒才能真正但我走出黑暗，而其中一句歌詞-「迷戀舞台此生離不開，請原諒我叛逆的期待」也是我對於生活的吶喊，希望有一天我能不負期望，成為一個令父母驕傲的孩子。</p>
             </section>
               </main>
+          <script type="text/javascript">
+                $(function() {
+                $('#gotop').click(function(){
+                $('html,body').animate({ scrollTop: 0 }, 'slow'); 
+                return false;
+    });
+    
+
+                $(window).scroll(function() {
+                if ( $(this).scrollTop() > 400){
+                $('#gotop').fadeIn();
+                } else {
+                $('#gotop').fadeOut();
+        }
+    });
+});
+</script>
+         <a href="https://www.blogger.com/blogger.g?blogID=2031514508322140995#" id="gotop" >
+               <i class="fa-solid fa-angles-up fa-3x"></i>
+              </a>
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         </div>
     </body>
