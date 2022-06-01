@@ -25,6 +25,9 @@ nav a:hover {
     background-color: rgb(115, 115, 115);
     color: white;
 }
+nav{
+    text-align: center;
+}
 section{
     font-size:1.5em;
     text-indent: 2em;

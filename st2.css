@@ -25,6 +25,9 @@ nav a:hover {
     background-color: rgb(115, 115, 115);
     color: white;
 }
+nav{
+    text-align: center;
+}
 .heigh{
     text-align: center;
 }
